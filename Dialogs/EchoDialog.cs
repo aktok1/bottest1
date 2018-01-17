@@ -33,7 +33,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
             }
             else
             {
-                await context.PostAsync($"{this.count++}: You said {message.Text} AKTOK TEST, lengtn of message: {message.Text.Length}" );
+                await context.PostAsync($"{this.count++}: You said {message.Text} AKTOK TEST, length of message: {message.Text.Length}" );
                 context.Wait(MessageReceivedAsync);
             }
         }
